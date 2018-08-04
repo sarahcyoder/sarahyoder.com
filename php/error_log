@@ -1,0 +1,22 @@
+[04-Jan-2018 10:57:35 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 6
+[04-Jan-2018 10:57:35 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 10
+[04-Jan-2018 10:57:35 America/Chicago] PHP Notice:   SELECT username FROM users WHERE username = '' in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 10
+[04-Jan-2018 10:57:35 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 12
+[04-Jan-2018 10:57:35 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 6
+[04-Jan-2018 10:57:35 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 10
+[04-Jan-2018 10:57:35 America/Chicago] PHP Notice:   SELECT username FROM users WHERE username = '' in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 10
+[04-Jan-2018 10:57:35 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 12
+[04-Jan-2018 10:57:35 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 6
+[04-Jan-2018 10:57:35 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 10
+[04-Jan-2018 10:57:35 America/Chicago] PHP Notice:   SELECT username FROM users WHERE username = '' in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 10
+[04-Jan-2018 10:57:35 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 12
+[04-Jan-2018 10:57:49 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 6
+[04-Jan-2018 10:57:49 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 10
+[04-Jan-2018 10:57:49 America/Chicago] PHP Notice:   SELECT username FROM users WHERE username = '' in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 10
+[04-Jan-2018 10:57:49 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 12
+[04-Jan-2018 11:03:13 America/Chicago] PHP Warning:  require_once(./inc/connectvars.php): failed to open stream: No such file or directory in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 5
+[04-Jan-2018 11:03:13 America/Chicago] PHP Fatal error:  require_once(): Failed opening required './inc/connectvars.php' (include_path='.:/opt/php56/lib/php') in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 5
+[04-Jan-2018 11:03:13 America/Chicago] PHP Warning:  require_once(./inc/connectvars.php): failed to open stream: No such file or directory in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 5
+[04-Jan-2018 11:03:13 America/Chicago] PHP Fatal error:  require_once(): Failed opening required './inc/connectvars.php' (include_path='.:/opt/php56/lib/php') in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 5
+[04-Jan-2018 11:03:14 America/Chicago] PHP Warning:  require_once(./inc/connectvars.php): failed to open stream: No such file or directory in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 5
+[04-Jan-2018 11:03:14 America/Chicago] PHP Fatal error:  require_once(): Failed opening required './inc/connectvars.php' (include_path='.:/opt/php56/lib/php') in /home2/syoder/public_html/sarahyoder.com/php/check-username.php on line 5

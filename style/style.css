@@ -1,0 +1,334 @@
+@charset "utf-8";
+
+/* blue #03abff */
+/* orange #ffb881 */
+/* lavendar #ebd6f3 */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: #ffffff;
+	background-image: url( ../img/header-bg.jpg);
+	background-repeat: repeat;
+	background-size: auto;
+	text-align: center;
+}
+
+h1, h2 {
+	text-align: left;
+}
+
+h1 {
+	color: #03abff;
+}
+
+h2, h3 {
+	color: #ffb881; 
+}
+
+#header {
+	width: 95%;
+	text-align: right;
+}
+
+#resultsHeader {
+	padding: 25px 0px 0px 0px;
+}
+
+#quizHeader {
+	position:relative;
+	top: 0px;
+	left: -500px;
+	visibility: hidden;
+}
+
+#intro {
+	position:relative;
+	top: 10px;
+	right: 500px;
+	line-height: 90px;
+	font-size: 5px;
+	visibility: hidden;
+	text-align: right;
+	vertical-align: bottom;
+}
+
+#content {
+	width: 95%;
+	background-color: #000000;
+	display: inline-block;
+}
+
+#page {
+	padding: 25px;
+	width: 95%;
+}
+
+#typedIntro {
+	color: #ffb881;
+	font-size: 50px;
+	text-align: right;
+	vertical-align: bottom;
+}
+
+#aboutHeader {
+	color: #ffb881;
+	font-size: 50px;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+#about img, #about p {
+	width: 50%;
+	padding: 5px;
+}
+
+#noGameIntro {
+	color: #ffb881;
+	font-size: 50px;
+	display: none;
+	text-align: right;
+}
+
+#portfolioIntro {
+	color: white;
+	font-size: 20px;
+	display: none;
+	text-align: right;
+	float: right;
+}
+
+#choosePath {
+	font-size: 25px;
+	text-align: right;
+}
+
+#errorMsg {
+	text-align: left;
+	color: red;
+}
+
+a {
+	color: #03abff;
+}
+
+.nav {
+	overflow: hidden;
+	opacity: 100;
+	float: left;
+	background-color: #000000;
+}
+
+.nav a {
+	float: left;
+	display: block;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #ffffff;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	border: solid thin white;
+}
+
+.sticky {
+	position: fixed;
+	bottom: 0;
+	z-index: 100;
+}
+
+.image_holder {
+  position: relative;
+}
+
+.portfolio_image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.image_holder:hover .overlay {
+  opacity: 0.9;
+}
+
+.text, .text a {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-15%, -15%);
+  -ms-transform: translate(-15%, -15%);
+  text-align: center;
+}
+
+.text a {
+	text-decoration: none;
+	display: block;
+}
+
+.column {
+	float: left;
+	width: 25%;
+	padding: 10px;
+}
+
+.column img {
+	margin-top: 5px;
+	width: 100%;
+	/*transition: all 1s ease-in-out;
+	background-color: white;*/
+}
+
+/*.column img.flipping {
+	transform:rotateY(359deg);
+}*/
+
+.gallery:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+form {
+	text-align: left;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 33%;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=button], input[type=submit] {
+    width: 33%;
+    background-color: #03abff;
+    color: #ffffff;
+	font-weight: bolder;
+    padding: 10px 20px;
+    margin: 5px 0;
+	cursor: grab;
+}
+
+input[type=button]:hover, input[type=submit]:hover {
+    background-color: #008acf;
+}
+
+#quizResults {
+	background-color: black;
+}
+
+#form, #quiz, #contact, #about, #coursework, #results {
+	padding: 30px 25px 75px 25px;
+	background-color: black;
+}
+
+#contact, #about, #coursework, #results, #quiz {
+	text-align: left;
+	width: 85%;
+}
+
+#quizResults, #quizRegister, #seeResults {
+	display: none;
+	text-align: left;
+}
+
+#quizRegister, #seeResults {
+	position: relative;
+}
+
+#registerText {
+	color: #ffb881;
+	font-weight: bolder;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+	background-color: black;
+}
+
+table, td, th {
+    border: 1px solid white;
+    padding: 5px;
+	text-align: left;
+}
+
+th {
+	padding: 5px;
+	background-color: #03abff;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: black;
+}
+
+@media screen and (max-width: 800px) {
+	
+	.column, input[type=text], input[type=button], input[type=password], input[type=email], input[type=submit] {
+		width: 50%;
+	}
+	
+	table {
+		width: 75%;
+	}
+	
+	#contact, #about {
+	width: 90%;
+	}
+	
+	#about img, #about p {
+	width: 80%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+    .column, table, #content, #about img, #about p, input[type=text], input[type=button], input[type=password], input[type=email], input[type=submit] {
+        width: 100%;
+    }
+	
+	#typedIntro {
+		font-size: 25px;
+	}
+
+	#page, #quiz {
+	padding: 25px 5px 5px 5px;
+	width: 100%;
+	}
+	
+	#form {
+		padding: 35px 5px;
+	}
+	
+	.nav a {
+	padding: 10px;
+	}
+	
+	#contact, #about, #coursework, #results {
+	width: 100%;
+	padding: 30px 5px 50px 5px;	
+	}
+}

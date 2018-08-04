@@ -1,0 +1,57 @@
+fruits
+vegetables
+candy
+cheese
+meat
+milk
+eggs
+beans
+chocolate
+bread
+pasta
+mustard
+nuts
+almonds
+rice
+cereal
+crackers
+peanut butter
+ice cream
+yogurt
+salad dressing
+vanilla
+vinegar
+sugar
+zucchini
+avocado
+bagels
+doughnuts
+Espresso
+water
+coffee
+fondue
+flour
+gingerbread
+grain
+hummus
+hot dogs
+juice
+jelly
+ketchup
+latke
+liquor
+noodles
+olives
+pancakes
+pastry
+pizza
+popcorn
+quiche
+ravioli
+salt
+sandwiches
+fish
+tofu
+tacos
+tea
+wheat
