@@ -45,7 +45,7 @@
 						<div class="image_holder">
 							<img src="./img/finding-bulgaria.jpg" class="portfolio_image">
 					  		<div class="overlay">
-    							<div class="text">FindingBulgaria.com is the final project from my UC Davis HTML/CSS class. Since I first built it, I have implemented Bootstrap to make it fully responsive and added PHP to reduce code redundancy.</div>
+    							<div class="text">FindingBulgaria.com is built on PHP and utilitzes Bootstrap to make it fully responsive.</div>
   							</div>
 						</div>
 					</a>
@@ -56,7 +56,7 @@
 						<div class="image_holder">
 							<img src="./img/github.jpg" class="portfolio_image">
 					  		<div class="overlay">
-    							<div class="text">View the code that powers this website, findingbulgaria.com, and my other projects.</div>
+    							<div class="text">View the code that powers this website and more!</div>
   							</div>
 						</div>
 					</a>
@@ -64,7 +64,7 @@
 						<div class="image_holder">
 							<img src="./img/rsma.jpg" class="portfolio_image">
 					  		<div class="overlay">
-    							<div class="text">I built riseandshinema.org using WordPress for the public affairs team at The Greater Boston Food Bank. For this project, I customized the theme’s PHP and CSS templates to create the requested design and functionality.</div>
+    							<div class="text">I built riseandshinema.org on WordPress during my time at The Greater Boston Food Bank.</div>
   							</div>
 						</div>
 					</a>
@@ -76,7 +76,7 @@
 						<div class="image_holder">
 							<img src="./img/macostofhunger.jpg" class="portfolio_image">
 					  		<div class="overlay">
-    							<div class="text">I created this single page, scrolling website on WordPress to showcase a Childrens HealthWatch research study. After selecting an appropriate theme, I modified the CSS stylesheet, as well as the PHP templates and functions.</div>
+    							<div class="text">This single page, scrolling WordPress site showcases a research study.</div>
   							</div>
 						</div>
 					</a>
