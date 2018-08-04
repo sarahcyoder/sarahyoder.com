@@ -323,8 +323,13 @@ tr:nth-child(even) {
 		padding: 35px 5px;
 	}
 	
+	.nav, .nav a {
+		float: none;
+		width: 100%;
+	}
+
 	.nav a {
-	padding: 10px;
+		padding: 10px;
 	}
 	
 	#contact, #about, #coursework, #results {
