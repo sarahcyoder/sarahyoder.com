@@ -165,7 +165,7 @@ a {
 }
 
 .image_holder:hover .overlay {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .text, .text a {
@@ -286,6 +286,17 @@ tr:nth-child(even) {
 	background-color: black;
 }
 
+@media screen and (max-width: 1000px) {
+	.text, .text a {
+  		top: 5%;
+  		left: 5%;
+  		transform: translate(-5%, -5%);
+  		-ms-transform: translate(-5%, -5%);
+  		text-align: center;
+}
+
+}
+
 @media screen and (max-width: 800px) {
 	
 	.column, input[type=text], input[type=button], input[type=password], input[type=email], input[type=submit] {
@@ -297,11 +308,11 @@ tr:nth-child(even) {
 	}
 	
 	#contact, #about {
-	width: 90%;
+		width: 90%;
 	}
 	
 	#about img, #about p {
-	width: 80%;
+		width: 80%;
 	}
 }
 
