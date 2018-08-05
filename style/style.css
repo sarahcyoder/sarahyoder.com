@@ -100,6 +100,7 @@ h2, h3 {
 	display: none;
 	text-align: right;
 	float: right;
+	padding-bottom: 25px;
 }
 
 #choosePath {
@@ -186,7 +187,7 @@ a {
 .column {
 	float: left;
 	width: 25%;
-	padding: 10px;
+	padding: 0px 5px;
 }
 
 .column img {
@@ -301,6 +302,10 @@ tr:nth-child(even) {
 	.column, input[type=text], input[type=button], input[type=password], input[type=email], input[type=submit] {
 		width: 50%;
 	}
+
+    #content {
+    	padding-bottom: 50px;
+    }	
 	
 	table {
 		width: 75%;
@@ -320,8 +325,12 @@ tr:nth-child(even) {
         width: 100%;
     }
 
+    .text, .text a {
+    	font-size: 25px;
+    }
+
     .gallery {
-    	margin-bottom: 170px;
+    	margin-bottom: 142px;
     }
 	
 	#typedIntro {
