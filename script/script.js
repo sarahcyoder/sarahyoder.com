@@ -1,6 +1,17 @@
 $(document).ready(function() {
 	//AJAX to load nav
-   $(".nav").load("inc/nav.html");
+    $(".nav").load("inc/nav.html");
+
+/*
+    $("icon").click(function() {
+    	var navig = $("#navig");
+    	if (navig.className === "nav") {
+    		navig.addClass("responsive");
+		} else {
+			navig.removeClass("responsive");
+		}
+    });
+    */
 
 	$("#quizHeader").animate({left: "3px"}, "slow")
 		.animate({fontSize: "150%"}, "2000")
@@ -158,7 +169,6 @@ window.onscroll = function() {
 };
 
 // function to move nav to bottom and keep it there when scrolling
-// function to move nav to bottom and keep it there when scrolling
 function stickyNav() {
 	var nav = document.getElementsByClassName("nav");
 	//console.log(nav);
@@ -186,4 +196,14 @@ function typeAbout() {
 		i++;
 		setTimeout(typeAbout, 100);
 	}
-}// end function typeChar
+}// end function typeAbout
+
+// Function to add hamburger menu on mobile.
+function hamburger() {
+    var navig = document.getElementById("navig");
+    if (!navig.classList.contains("responsive")) {
+        navig.classList.add("responsive");
+    } else {
+        navig.classList.remove("responsive");
+    }
+}
