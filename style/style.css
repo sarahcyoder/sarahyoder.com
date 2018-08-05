@@ -148,7 +148,6 @@ a {
 .portfolio_image {
   display: block;
   width: 100%;
-  height: auto;
 }
 
 .overlay {
@@ -293,7 +292,7 @@ tr:nth-child(even) {
   		transform: translate(-5%, -5%);
   		-ms-transform: translate(-5%, -5%);
   		text-align: center;
-}
+	}
 
 }
 
