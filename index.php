@@ -36,7 +36,7 @@
 		</div>
 		<div id="portfolioIntro">Mouseover or click the images below to learn more about me!</div>
 	</div> <!-- end header div -->
-	
+	<br />
 	<div id="content">
 		<div class="page">
 			<div class="gallery">
