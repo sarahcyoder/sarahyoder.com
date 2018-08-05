@@ -49,7 +49,7 @@
   							</div>
 						</div>
 					</a>
-					<a href="https://www.linkedin.com/in/sarahcyoder/" target="_blank"><img src="./img/linkedin.jpg"></a>
+					<a href="https://www.linkedin.com/in/sarahcyoder/" target="_blank"><img src="./img/linkedin.jpg" class="portfolio_image"></a>
 				</div>			
 				<div class="column">
 					<a href="https://github.com/sarahcyoder/" target="_blank">
@@ -70,8 +70,7 @@
 					</a>
 				</div>
 				<div class="column">
-					<a href="/doc/SarahYoderResume.pdf" target="_blank"><img src="./img/resume.jpg"></a>
-					<!--<a href="coursework.html"><img src="./img/courses.jpg"></a>-->
+					<a href="/doc/SarahYoderResume.pdf" target="_blank"><img src="./img/resume.jpg" class="portfolio_image"></a>
 					<a href="http://macostofhunger.org/" target="_blank">
 						<div class="image_holder">
 							<img src="./img/macostofhunger.jpg" class="portfolio_image">
@@ -82,8 +81,8 @@
 					</a>
 				</div>
 				<div class="column">
-					<a href="about.html"><img src="./img/about-home.jpg"></a>
-					<a href="contact.html"><img src="./img/contact.jpg"></a>
+					<a href="about.html"><img src="./img/about-home.jpg" class="portfolio_image"></a>
+					<a href="contact.html"><img src="./img/contact.jpg" class="portfolio_image"></a>
 				</div>	
 			</div>
 		</div> <!-- end page div -->
