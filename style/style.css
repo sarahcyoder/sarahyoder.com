@@ -319,6 +319,10 @@ tr:nth-child(even) {
     .column, table, #content, #about img, #about p, input[type=text], input[type=button], input[type=password], input[type=email], input[type=submit] {
         width: 100%;
     }
+
+    .gallery {
+    	margin-bottom: 170px;
+    }
 	
 	#typedIntro {
 		font-size: 25px;
